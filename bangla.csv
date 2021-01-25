@@ -1,0 +1,87 @@
+অ,Aw,Vowel Full
+আ,Ah,Vowel Full
+ই,Ee,Vowel Full
+ঈ,Eee,Vowel Full
+উ,Oo,Vowel Full
+ঊ,Ooo,Vowel Full
+ঋ,Ri,Vowel Full
+এ,Eh,Vowel Full
+ঐ,Oi,Vowel Full
+ও,Oh,Vowel Full
+ঔ,Ou,Vowel Full
+া,Ah,Vowel Sign
+ি,Ee,Vowel Sign
+ী,Eee,Vowel Sign
+ু,Oo,Vowel Sign
+ূ,Ooo,Vowel Sign
+ৃ,Ri,Vowel Sign
+ে,Eh,Vowel Sign
+ৈ,Oi,Vowel Sign
+ো,Oh,Vowel Sign
+ৌ,Ou,Vowel Sign
+ক,Ka,Consonent
+খ,Kha,Consonent
+গ,Ga,Consonent
+ঘ,Gha,Consonent
+ঙ,Unga,Consonent
+চ,Ca,Consonent
+ছ,Cha,Consonent
+জ,Ja,Consonent
+ঝ,Jha,Consonent
+ঞ,Inga,Consonent
+ট,Tta,Consonent
+ঠ,Ttha,Consonent
+ড,Dda,Consonent
+ঢ,Ddha,Consonent
+ণ,Nna,Consonent
+ত,Ta,Consonent
+থ,Tha,Consonent
+দ,Da,Consonent
+ধ,Dha,Consonent
+ন,Na,Consonent
+প,Pa,Consonent
+ফ,Pha,Consonent
+ব,Ba,Consonent
+ভ,Bha,Consonent
+ম,Ma,Consonent
+য,Ya,Consonent
+র,Ra,Consonent
+ল,La,Consonent
+শ,Sha,Consonent
+স,Sa,Consonent
+ষ,Ssa,Consonent
+হ,Ha,Consonent
+ড়,Rra,Consonent
+ঢ়,Rha,Consonent
+য়,Yya,Consonent
+স্ক,স + ক,Conjunct
+দ্র,দ + র,Conjunct
+ম্ভ,ম + ভ,Conjunct
+র্ক,র + ক,Conjunct
+ট্ট,ট + ট,Conjunct
+র্য্য,র + য + য,Conjunct
+ক্ষ,ক + ষ,Conjunct
+স্ব,স + ব,Conjunct
+প্ত,প + ত,Conjunct
+ন্দ,ন + দ,Conjunct
+ন্ধ,ন + ধ,Conjunct
+ঙ্গ,ঙ + গ,Conjunct
+ত্ত,ত + ত,Conjunct
+স্ত্র,স + ত + র,Conjunct
+ষ্ট,ষ + ট,Conjunct
+ম্যা,ম + য + আ,Conjunct
+ল্ড,ল + ড,Conjunct
+ফ্যা,ফ + য + আ,Conjunct
+স্ট,স + ট,Conjunct
+ন্ট,ন + ট,Conjunct
+স্থ,স + থ,Conjunct
+ন্ন,ন + ন,Conjunct
+স্যা,স + য + আ,Conjunct
+দ্ধ,দ + ধ,Conjunct
+ক্ষ,ক + ষ,Conjunct
+ত্র,ত + র,Conjunct
+চ্চ,চ + চ,Conjunct
+ক্ত,ক + ত,Conjunct
+ব্য,ব + য,Conjunct
+জ্ঞ,জ + ঞ,Conjunct
+শ্র,শ + র,Conjunct
