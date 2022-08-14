@@ -164,13 +164,13 @@ def toletters():
     labelba.pack(side="top")
     button1.pack(side="bottom")
 
-#just fuck me up, my guy
-def fuckmeup():
+#just mess me up, my guy
+def messmeup():
     global mode
-    global fuckrand
-    global fucklen
-    global fucklist
-    mode = "fuckmeup"
+    global messrand
+    global messlen
+    global messlist
+    mode = "messmeup"
     #resets screen geometry
     root.geometry('400x385')
     button1.pack_forget()
@@ -180,17 +180,17 @@ def fuckmeup():
     button5.pack_forget()
     
     #creates variables for list
-    fucklist = letters + conjuncts
-    rand.shuffle(fucklist)
-    fucklen = len(fucklist)
+    messlist = letters + conjuncts
+    rand.shuffle(messlist)
+    messlen = len(messlist)
 
     #randomizes labels and creates buttons
-    fuckrand = rand.randint(0,1)
-    if fuckrand == 0:
+    messrand = rand.randint(0,1)
+    if messrand == 0:
         labelen.config(text="???", font=("Arial", 80))
-        labelba.config(text=fucklist[i][0], font=("Arial", 150))
-    if fuckrand == 1:
-        labelen.config(text=fucklist[i][1], font=("Arial", 80))
+        labelba.config(text=messlist[i][0], font=("Arial", 150))
+    if messrand == 1:
+        labelen.config(text=messlist[i][1], font=("Arial", 80))
         labelba.config(text="?", font=("Arial", 150))
     button1.config(text="Answer", command=answer)
     button2.config(text="Restart", command=restart)
@@ -211,8 +211,8 @@ def stop():
 #updates widget with new letter
 def update():
     global i
-    global fucklen
-    global fuckrand
+    global messlen
+    global messrand
     i += 1
     if mode == "bangla":
         if i == length:
@@ -238,16 +238,16 @@ def update():
             return
         labelba.config(text=conjuncts[i][0])
         labelen.config(text="???")
-    if mode == "fuckmeup":
-        if i == fucklen:
+    if mode == "messmeup":
+        if i == messlen:
             stop()
             return
-        fuckrand = rand.randint(0,1)
-        if fuckrand == 0:
+        messrand = rand.randint(0,1)
+        if messrand == 0:
             labelen.config(text="???", font=("Arial", 80))
-            labelba.config(text=fucklist[i][0], font=("Arial", 150))
-        if fuckrand == 1:
-            labelen.config(text=fucklist[i][1], font=("Arial", 80))
+            labelba.config(text=messlist[i][0], font=("Arial", 150))
+        if messrand == 1:
+            labelen.config(text=messlist[i][1], font=("Arial", 80))
             labelba.config(text="?", font=("Arial", 150))
     button1.config(text="Answer", command=answer)
 
@@ -266,11 +266,11 @@ def answer():
     if mode == "letters":
         print(i, conjuncts[i])
         labelen.config(text=conjuncts[i][1])
-    if mode == "fuckmeup":
-        if fuckrand == 0:
-            labelen.config(text=fucklist[i][1])
-        if fuckrand == 1:
-            labelba.config(text=fucklist[i][0])
+    if mode == "messmeup":
+        if messrand == 0:
+            labelen.config(text=messlist[i][1])
+        if messrand == 1:
+            labelba.config(text=messlist[i][0])
     button1.config(text="New", command=update)   
 
 #menu buttons
@@ -284,7 +284,7 @@ def menu():
     button3.pack(side="top")
     button4.config(text="Conjuncts-to-Letters", command=toletters)
     button4.pack(side="top")
-    button5.config(text="Fuck-Me-Up", command=fuckmeup)
+    button5.config(text="mess-Me-Up", command=messmeup)
     button5.pack(side="top")
 
 
