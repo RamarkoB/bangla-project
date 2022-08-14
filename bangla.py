@@ -275,7 +275,7 @@ def answer():
 
 #menu buttons
 def menu():
-    root.geometry('210x90')
+    root.geometry('210x150')
     button1.config(text="English-to-Bangla", command=tobangla)
     button1.pack(side="top")
     button2.config(text="Bangla-to-English", command=toenglish)
@@ -284,7 +284,7 @@ def menu():
     button3.pack(side="top")
     button4.config(text="Conjuncts-to-Letters", command=toletters)
     button4.pack(side="top")
-    button5.config(text="mess-Me-Up", command=messmeup)
+    button5.config(text="Mess-Me-Up", command=messmeup)
     button5.pack(side="top")
 
 
